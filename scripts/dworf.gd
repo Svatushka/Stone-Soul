@@ -4,7 +4,7 @@ const speed = 40
 const JumpVelocity = 50
 const gravity = 200
 const Up = Vector2(0, -1)
-
+var Health = 100
 var Movement = Vector2()
 
 func _physics_process(delta):
